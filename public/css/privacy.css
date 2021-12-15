@@ -1,0 +1,55 @@
+.privacy-inner {
+  max-width: 880px;
+}
+
+.privacy-wrap {
+  margin-top: 48px;
+}
+@media (orientation: portrait) and (max-width: 599px) {
+  .privacy-wrap {
+    margin-top: 8vw;
+  }
+}
+
+.privacy-item + .privacy-item {
+  margin-top: 48px;
+}
+@media (orientation: portrait) and (max-width: 599px) {
+  .privacy-item + .privacy-item {
+    margin-top: 7vw;
+  }
+}
+.privacy-item .ttl {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+@media (orientation: portrait) and (max-width: 599px) {
+  .privacy-item .ttl {
+    font-size: 4vw;
+  }
+}
+.privacy-item .ttl span {
+  display: inline-block;
+  background: #283943;
+  color: #fff;
+  font-weight: normal;
+  padding: 4px 10px;
+  margin-right: 10px;
+}
+@media (orientation: portrait) and (max-width: 599px) {
+  .privacy-item .ttl span {
+    margin-right: 1vw;
+    font-size: 3.7333vw;
+    padding: 0.533vw 1.6vw 0.62vw;
+  }
+}
+.privacy-item .txt {
+  line-height: 1.75;
+  margin-top: 16px;
+}
+@media (orientation: portrait) and (max-width: 599px) {
+  .privacy-item .txt {
+    line-height: 1.55;
+    margin-top: 2vw;
+  }
+}
